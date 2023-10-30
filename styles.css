@@ -34,11 +34,14 @@ body {
   font-size: medium;
 }
 
+.inlineblock {
+  display: inline-block;
+}
+
 .discount {
   color: rgb(102, 102, 102);
   background-color: #f8f9fb;
   border: solid 1px rgba(197, 197, 197, 0.49);
-  padding: 0.5rem;
   border-radius: 0.5rem;
   width: 100;
   font-size: medium;
@@ -58,6 +61,22 @@ body {
   padding: 1rem;
 }
 
-.radiobutton {
-  padding: 1rem;
+.listitem {
+  padding: 0.5rem;
+}
+
+.test {
+  width: 110px;
+  height: 25px;
+  background-color: rgba(72, 0, 255, 0.5);
+  border-left: 10px double rgba(0, 0, 0, 0.75);
+}
+
+.divider {
+  border-bottom: solid 1px rgba(197, 197, 197, 0.49);
+  padding: 0.5rem 0.5rem;
+}
+
+.uudaithem {  
+  padding: 0.5rem 0rem; 
 }

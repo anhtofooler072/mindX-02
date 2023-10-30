@@ -8,6 +8,9 @@
     <link
       rel="stylesheet"
       href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <title>lesson 2 asssignment</title>
   </head>
   <body>
@@ -16,7 +19,7 @@
       border="0">
       <tbody>
         <tr>
-          <!-- right cell -->
+          <!-- left cell -->
           <td class="contentleft">
             <img
               class="imgur"
@@ -25,12 +28,27 @@
             <br />
             <br />
             <div class="information">
-              <p>6.7 inch, OLED Super Retina XDR, 2796 x 1290 pixel</p>
-              <p>48.0MP + 12.0MP + 12.0MP</p>
-              <p>12.0MP</p>
-              <p>Apple A16 Bionic</p>
-              <p>128GB</p>
-              <p class="detail">xem chi tiết thông số kĩ thuật</p>
+              <div class="listitem">
+                <span class="material-symbols-outlined"> phone_iphone </span>
+                 6.7 inch, OLED Super Retina XDR, 2796 x 1290 pixel
+              </div>
+              <div class="listitem">
+                <span class="material-symbols-outlined"> camera </span>
+                 48.0MP + 12.0MP + 12.0MP
+              </div>
+              <div class="listitem">
+                <span class="material-symbols-outlined"> camera_front </span>
+                 12.0MP
+              </div>
+              <div class="listitem">
+                <span class="material-symbols-outlined"> memory </span> Apple
+                 A16 Bionic
+              </div>
+              <div class="listitem">
+                <span class="material-symbols-outlined"> hard_drive </span> 
+                128GB
+              </div>
+              <div class="listitem detail">xem chi tiết thông số kĩ thuật</div>
             </div>
             <br />
             <div>
@@ -49,7 +67,7 @@
             </div>
           </td>
 
-          <!-- left cell -->
+          <!-- right cell -->
           <td class="contentright">
             <!-- gia thanh -->
             <h1 class="price">26.990.000đ</h1>
@@ -58,38 +76,70 @@
 
             <!-- uu dai -->
             <div class="discount">
-              <div>
-                <p>chọn một trong 2 khuyến mãi sau</p>
+              <div class="divider">
+                <strong>Chọn một trong 2 khuyến mãi sau</strong>
               </div>
-              <div>
-                <label for="radioone">
-                  <input
-                    class="radiobutton"
-                    id="radioone"
-                    value="giam3tr"
-                    type="radio"
-                    name="radio" />
-                  giam ngay 3tr
-                </label>
-                <br />
-                <label for="radiotwo">
-                  <input
-                    class="radiobutton"
-                    id="radiotwo"
-                    type="radio"
-                    name="radio"
-                    value="giam800" />
-                  giam ngay 800k
-                </label>
+
+              <!-- radiobutton -->
+              <!-- button 1 -->
+              <div class="divider">
+                <div class="listitem">
+                  <label for="radioone">
+                    <input
+                      id="radioone"
+                      value="giam3tr"
+                      type="radio"
+                      name="radio" />
+                    giảm ngay 3.000.000đ khi mua màu Đen áp dụng đến 31/10
+                  </label>
+                </div>
+
+                <!-- button 2 -->
+                <div class="listitem">
+                  <label for="radiotwo">
+                    <input
+                      id="radiotwo"
+                      type="radio"
+                      name="radio"
+                      value="giam800" />
+                    giảm ngay 800,000đ áp dụng đến 31/10
+                  </label>
+                </div>
               </div>
-              <p
-                style="
-                  text-align: left;
-                  background-color: gray;
-                  color: aliceblue;
-                ">
-                uu dai them
-              </p>
+
+              <!-- ưu đãi thêm -->
+              <div class="uudaithem">
+                <strong
+                  style="
+                    background-color: #e8ecee;
+                    padding: 0.5rem;
+                    border-radius: 0 0 0.5rem 0;
+                  "
+                  >Ưu đãi thêm</strong
+                >
+              </div>
+
+              <!-- ưu đãi list -->
+              <div
+                class="listitem"
+                align-vertical="middle">
+                <span class="material-symbols-outlined"> task_alt </span>
+                Tặng sim Mobifone 0đ trị giá 170.000Đ
+              </div>
+              <div class="listitem">
+                <span class="material-symbols-outlined"> task_alt </span>
+                Mua sim Vina phone VD90 giá chỉ 100.000 30GB data/tháng, 1500 ph
+                gọi nội mạng, 30 ph ngoại mạng
+              </div>
+              <div class="listitem">
+                <span class="material-symbols-outlined"> task_alt </span>
+                Thu cũ đổi mới giảm ngay đến 2 triệu (SmartExchange)
+                <a
+                  class="inlineblock detail"
+                  href="https://cellphones.com.vn/lo-vi-song-samsung-23-lit-mg23t5018ck.html"
+                  >xem chi tiết</a
+                >
+              </div>
             </div>
           </td>
         </tr>
