@@ -1,6 +1,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(75, 75, 75);
+  padding: 0.5rem 2.5rem
 }
 
 .price {
@@ -52,13 +53,15 @@ body {
 }
 
 .contentleft {
-  width: 50%;
+  width: 46%;
   padding: 1rem;
+  float: left;
 }
 
 .contentright {
-  width: 50%;
+  width: 46%;
   padding: 1rem;
+  float: right;
 }
 
 .listitem {
