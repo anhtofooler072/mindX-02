@@ -51,19 +51,17 @@ body {
 }
 
 .detail {
-  color: rgb(0, 42, 255);
+  color: #0565f9;
 }
 
 .contentleft {
   width: 47%;
   padding: 1rem;
-  float: left;
 }
 
 .contentright {
   width: 47%;
   padding: 1rem;
-  float: right;
 }
 
 .listitem {
@@ -109,10 +107,19 @@ body {
 }
 
 .left {
-  float: left;
+  /* float: left; */
   margin-right: 1rem;
 }
 
 .right {
-  float: right;
+  /*   display: flex */
+}
+
+td {
+  padding: 0.5rem;
+  text-align: left;
+}
+
+.trseperator {
+  background-color: #f3f4f7;
 }
