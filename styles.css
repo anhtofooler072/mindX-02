@@ -111,10 +111,6 @@ body {
   margin-right: 1rem;
 }
 
-.right {
-  /*   display: flex */
-}
-
 td {
   padding: 0.5rem;
   text-align: left;
@@ -122,4 +118,10 @@ td {
 
 .trseperator {
   background-color: #f3f4f7;
+}
+
+.tragop-div {
+  display: inline-flex;
+  width: 100%;
+  padding: 0;
 }
